@@ -25,7 +25,23 @@ function getHeadline(){
 function changeHeadlines(){
   $('h1').text('New Headline');
   $('h2').text('A Wikipedia Article');
-  
+
 }
+
+function logHeadlines(){
+  $('h1').text();
+  $('h2').text();
+}
+var a= logHeadlines('h1');
+console.log(a);
+var b= logHeadlines('h2');
+console.log(b);
+
+function swapHeadlines(){
+  $('h1').text(From Wikipedia,the free encyclopedia);
+  $('h2').text(Loren ipsum);
+}
+
+
 
 </script>
