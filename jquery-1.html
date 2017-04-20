@@ -52,6 +52,18 @@ function undo(){
   $('h3').show();
 }
 
+function highlightByline(){
+  $('.byline').addClass('highlight');
+}
 
+function unhighlightByline(){
+  $('.byline').removeClass('highlight');
+}
 
 </script>
+
+<style>
+.highlight {
+  background-color: yellow;
+}
+</style>
